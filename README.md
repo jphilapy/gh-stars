@@ -12,7 +12,6 @@
 - MySQL
 
 ### Installation
-- download and extract the zip file: http://portfolio.altahost.com/interview-vanderbilt.zip
 - In the project root directory:
   - Open the .env file
   - Find the section that begins with: DB_CONNECTION=mysql
@@ -28,12 +27,3 @@ Alternatively, you can see the live version at http://portfolio.altahost.com/git
 - Visit http://portfolio.altahost.com/github-stars/ (or 127.0.0.1:8000 if using laravel's built in server)
 - You will be presented with the login page. Click the login link
 - Once the app is authorized, you will be redirected to the dashboard, where you can just click "Update Report"
-
-### Sourcode location
-- app/Http/Controllers/GitHubReportsController.php
-- resources/views/layouts/app.blade.php (global stuff)
-- resources/views/detail.blade.php (single repo listing page)
-- resources/views/dashboard.blade.php (table of listings)
-- resources/views/login.blade.php (just a link to authorize the app)
-- routes/web.php
-- .env (for configuration info)
