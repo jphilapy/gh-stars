@@ -1,16 +1,5 @@
 # Read Me
 
-### Architecture:
-- Laravel (PHP)
-- Bootstrap
-  - general styles
-  - popover
-  - tooltip
-- NPM
-- Composer
-- php-curl-class
-- MySQL
-
 ### Installation
 - In the project root directory:
   - Open the .env file
